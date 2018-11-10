@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "<%= name %>",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development poi dev",
+    "build": "cross-env NODE_ENV=production poi build"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "poi": "next",
+    "react-hot-loader": "^4.3.12"
+  }
+}
